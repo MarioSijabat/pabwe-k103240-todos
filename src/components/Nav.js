@@ -15,7 +15,7 @@ function Nav({ keyword, keywordChange }) {
           <SearchInput keyword={keyword} keywordChange={keywordChange} />
         ) : null}
       </div>
-    </nav>
+    </nav> //test
   );
 }
 Nav.propTypes = {
